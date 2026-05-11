@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Research overview</title>
+  <desc id="desc">Workflow from molecular design to transport mechanisms, devices and applications with modeling feedback.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#0a6f9e"/></marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#695a9f"/></marker>
+    <style>.bg{fill:#fff}.panel{fill:#f7f9fb;stroke:#d9e0e7;stroke-width:2}.title{font:700 34px system-ui,Arial;fill:#17202a}.label{font:700 22px system-ui,Arial;fill:#17202a}.small{font:600 16px system-ui,Arial;fill:#5c6672}.blue{stroke:#0a6f9e}.purple{stroke:#695a9f}.red{stroke:#b14b3b}.line{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.node{fill:#fff;stroke:#d9e0e7;stroke-width:2}.chip{fill:#fff;stroke:#d9e0e7;stroke-width:2}</style>
+  </defs>
+  <rect class="bg" width="1200" height="675"/>
+  <rect class="panel" x="28" y="30" width="1144" height="615" rx="18"/>
+  <text class="title" x="600" y="82" text-anchor="middle">Organic Materials, Transport Physics and Devices</text>
+  <g transform="translate(72 146)"><rect class="node" x="0" y="0" width="210" height="160" rx="16"/><text class="label" x="105" y="36" text-anchor="middle">Molecular Design</text><g stroke="#17202a" stroke-width="3" fill="none" opacity=".85"><path d="M56 98 L84 66 L125 82 L154 53"/><circle cx="56" cy="98" r="10" fill="#0a6f9e"/><circle cx="84" cy="66" r="10" fill="#b14b3b"/><circle cx="125" cy="82" r="10" fill="#3f7f54"/><circle cx="154" cy="53" r="10" fill="#695a9f"/><path d="M48 128 C86 112,124 134,166 112"/></g></g>
+  <path class="line blue" d="M300 226 H390" marker-end="url(#arrow-blue)"/>
+  <g transform="translate(406 146)"><rect class="node" x="0" y="0" width="260" height="160" rx="16"/><text class="label" x="130" y="36" text-anchor="middle">Light-Heat-Charge</text><path class="line blue" d="M38 98 C78 42,110 145,148 88"/><path class="line red" d="M82 118 C125 84,158 132,215 64"/><text class="small" x="52" y="138">charge</text><text class="small" x="144" y="138">exciton</text><text class="small" x="196" y="96">heat</text><circle cx="72" cy="88" r="18" fill="#0a6f9e" opacity=".15"/><circle cx="177" cy="86" r="18" fill="#b14b3b" opacity=".16"/></g>
+  <path class="line blue" d="M690 226 H780" marker-end="url(#arrow-blue)"/>
+  <g transform="translate(796 146)"><rect class="node" x="0" y="0" width="210" height="160" rx="16"/><text class="label" x="105" y="36" text-anchor="middle">Device Building</text><g transform="translate(44 66)"><rect x="0" y="54" width="128" height="20" fill="#94a3b8"/><rect x="8" y="34" width="112" height="20" fill="#85c6df"/><rect x="16" y="14" width="96" height="20" fill="#9bcf9f"/><rect x="24" y="-6" width="80" height="20" fill="#dca36f"/><path d="M0 76 H128" stroke="#5c6672"/></g></g>
+  <path class="line blue" d="M1022 226 H1090" marker-end="url(#arrow-blue)"/>
+  <g transform="translate(1054 140)"><text class="label" x="36" y="42">Applications</text><rect class="chip" x="0" y="62" width="72" height="52" rx="10"/><path d="M12 97 C28 76,42 116,60 82" stroke="#b14b3b" stroke-width="4" fill="none"/><rect class="chip" x="86" y="62" width="72" height="52" rx="10"/><path d="M98 100 H146 M98 84 H146 M112 70 V108 M132 70 V108" stroke="#0a6f9e" stroke-width="3"/></g>
+  <path class="line purple" d="M940 378 C760 496,420 498,250 390" marker-end="url(#arrow-purple)"/>
+  <g transform="translate(470 416)"><rect class="node" x="0" y="0" width="260" height="84" rx="16"/><text class="label" x="130" y="34" text-anchor="middle">DFT · Models · KMC</text><text class="small" x="130" y="60" text-anchor="middle">feedback to materials design</text></g>
+  <g transform="translate(96 540)"><circle cx="0" cy="0" r="11" fill="#b14b3b"/><text class="small" x="22" y="6">Thermoelectrics</text><circle cx="210" cy="0" r="11" fill="#0a6f9e"/><text class="small" x="232" y="6">Optoelectronics</text><circle cx="438" cy="0" r="11" fill="#3f7f54"/><text class="small" x="460" y="6">Photocatalysis</text><circle cx="650" cy="0" r="11" fill="#695a9f"/><text class="small" x="672" y="6">Computation</text></g>
+</svg>
