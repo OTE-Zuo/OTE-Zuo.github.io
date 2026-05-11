@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Photocatalytic hydrogen evolution</title>
+  <desc id="desc">Sunlight drives charge separation in an organic photocatalyst and produces hydrogen.</desc>
+  <defs><marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#3f7f54"/></marker><style>.t{font:800 46px system-ui,Arial;fill:#173f2b}.l{font:700 23px system-ui,Arial;fill:#173f2b}.s{font:600 17px system-ui,Arial;fill:#5c6672}</style></defs>
+  <rect width="1200" height="675" fill="#fff"/>
+  <text class="t" x="600" y="78" text-anchor="middle">Photocatalytic Hydrogen Evolution</text>
+  <path d="M0 430 C150 390,260 462,390 420 S650 382,790 426 S1010 480,1200 418 V675 H0 Z" fill="#dff3fb"/>
+  <circle cx="142" cy="168" r="44" fill="#f7c948"/><path d="M185 206 L400 328" stroke="#f7c948" stroke-width="7"/><path d="M176 132 L386 278" stroke="#f7c948" stroke-width="4"/>
+  <g transform="translate(430 190)"><circle cx="170" cy="170" r="150" fill="#cfe8c7" stroke="#3f7f54" stroke-width="4"/><g fill="none" stroke="#1f4d35" stroke-width="3" opacity=".85"><path d="M70 155 L118 94 L190 122 L242 72 L282 150 L236 232 L154 248 L96 218 Z"/><path d="M118 94 L154 248 M190 122 L96 218 M242 72 L236 232"/></g><circle cx="120" cy="150" r="22" fill="#0a6f9e"/><text x="120" y="158" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">e-</text><circle cx="210" cy="205" r="22" fill="#b14b3b"/><text x="210" y="213" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">h+</text><path d="M92 118 C168 70,260 94,304 170" stroke="#f7c948" stroke-width="7" fill="none"/><text class="l" x="170" y="356" text-anchor="middle">light harvesting · charge separation</text></g>
+  <path d="M735 340 C830 288,888 292,944 226" stroke="#3f7f54" stroke-width="7" fill="none" marker-end="url(#ag)"/>
+  <g fill="#e9f8ff" stroke="#63a9c8" stroke-width="3"><circle cx="982" cy="206" r="38"/><circle cx="1042" cy="284" r="30"/><circle cx="952" cy="328" r="24"/></g>
+  <text class="l" x="982" y="214" text-anchor="middle">H₂</text><text class="l" x="1042" y="292" text-anchor="middle">H₂</text>
+  <text class="s" x="110" y="560">organic / hybrid photocatalysts</text><text class="s" x="834" y="560">solar fuel conversion</text>
+</svg>
