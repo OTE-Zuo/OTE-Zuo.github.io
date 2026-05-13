@@ -64,7 +64,7 @@
     "Group members": "团队成员",
     "We are building a collaborative research group across materials chemistry, device physics and computational modeling.": "我们正在建设一个横跨材料化学、器件物理与计算建模的合作型研究团队。",
     "Principal Investigator": "课题组负责人",
-    "Prof. Guangzheng Zuo": "左光正 教授",
+    "Prof. Guangzheng Zuo": "左光正 青年研究员",
     "Profile on X-MOL": "X-MOL个人主页",
     "Graduate Students": "研究生",
     "PhD and MSc students working on materials, devices, characterization and modeling.": "博士生和硕士生围绕材料、器件、表征与建模开展研究。",
@@ -115,6 +115,7 @@
     document.body.classList.toggle("is-zh", lang === "zh");
 
     document.querySelectorAll("p, div").forEach((element) => {
+      if (element.closest("[data-zh-only]")) return;
       if (!element.dataset.langHtmlEn) element.dataset.langHtmlEn = element.innerHTML;
       if (!element.dataset.langTextEn) element.dataset.langTextEn = normalize(element.textContent);
       const key = element.dataset.langTextEn;
@@ -125,6 +126,7 @@
 
     document.querySelectorAll("h1, h2, h3, p, a, small, strong, li, span, time, button").forEach((element) => {
       if (element === languageButton) return;
+      if (element.closest("[data-zh-only]")) return;
       if (element.children.length > 0) return;
       if (!element.dataset.langEn) element.dataset.langEn = element.textContent;
       const key = normalize(element.dataset.langEn);

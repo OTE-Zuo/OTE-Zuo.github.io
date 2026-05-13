@@ -24,6 +24,19 @@
       color: var(--muted);
       font-weight: 650;
     }
+    .pi-contact {
+      display: none;
+      margin: 8px 0 20px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+    .pi-contact p {
+      margin: 0;
+    }
+    body.is-zh .pi-contact {
+      display: block;
+    }
     .pi-bio {
       max-width: 860px;
       color: var(--ink);
@@ -57,6 +70,12 @@
         <div>
           <p class="eyebrow">Principal Investigator</p>
           <h2>Prof. Guangzheng Zuo</h2>
+          <div class="pi-contact" lang="zh-CN" data-zh-only>
+            <p>地址：江湾校区交叉二号学科楼B4003</p>
+            <p>Email: <a href="mailto:gzzuo@fudan.edu.cn">gzzuo@fudan.edu.cn</a></p>
+            <p>智能机器人与先进制造创新学院，光源与照明工程系</p>
+            <p>复旦大学（江湾校区）</p>
+          </div>
           <p class="pi-title">Young Principal Investigator, Doctoral Supervisor<br>College of Intelligent Robotics and Advanced Manufacturing, Fudan University</p>
           <p class="pi-bio">
             Dr. Guangzheng Zuo is a Young Principal Investigator and doctoral supervisor at the College of Intelligent Robotics and Advanced Manufacturing, Fudan University. He is a Shanghai Overseas High-Level Talent and an Alexander von Humboldt Fellow. He received his Ph.D. in Applied Physics from Linköping University, Sweden, and subsequently carried out postdoctoral research at the University of Potsdam, Germany, supported by the Alexander von Humboldt Foundation.
