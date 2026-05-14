@@ -420,6 +420,37 @@ body.is-zh .timeline time {
   margin: 0;
 }
 
+.private-visit-stats {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 20;
+  display: grid;
+  gap: 3px;
+  min-width: 170px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 12px 30px rgba(23, 32, 42, 0.16);
+  font-size: 13px;
+  line-height: 1.45;
+  backdrop-filter: blur(12px);
+}
+
+.private-visit-stats strong {
+  font-size: 14px;
+}
+
+.private-visit-stats span {
+  color: var(--muted);
+}
+
+.private-visit-stats b {
+  color: var(--ink);
+}
+
 @media (max-width: 900px) {
   .site-header {
     align-items: flex-start;
