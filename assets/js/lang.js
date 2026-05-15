@@ -62,7 +62,7 @@
     "Selected publications": "代表性论文",
     "Before 2022": "2022年以前",
     "Group members": "团队成员",
-    "We are building a collaborative research group across materials chemistry, device physics and computational modeling.": "我们正在建设一个横跨材料化学、器件物理与计算建模的合作型研究团队。",
+    "We are building a collaborative research group across materials chemistry, device physics and computational modeling.": "我们正在建设一个横跨材料化学、器件物理与计算建模的交叉型研究团队。",
     "Principal Investigator": "课题组负责人",
     "Prof. Guangzheng Zuo": "左光正 青年研究员 博士生导师",
     "Profile on X-MOL": "X-MOL个人主页",
