@@ -1,6 +1,6 @@
 (function () {
   const translations = {
-    "Zuo Research Group": "左光正课题组",
+    "Zuo Research Group": "复旦大学左光正课题组",
     "Organic Thermoelectrics & Optoelectronics": "有机热电与光电子",
     "Home": "首页",
     "Research": "研究方向",
@@ -98,13 +98,13 @@
   };
 
   const titleTranslations = {
-    "Zuo Research Group": "左光正课题组",
-    "Research | Zuo Research Group": "研究方向 | 左光正课题组",
-    "Publications | Zuo Research Group": "论文发表 | 左光正课题组",
-    "People | Zuo Research Group": "团队成员 | 左光正课题组",
-    "News | Zuo Research Group": "组内动态 | 左光正课题组",
-    "Join Us | Zuo Research Group": "加入我们 | 左光正课题组",
-    "Redirecting | Zuo Research Group": "正在跳转 | 左光正课题组"
+    "Zuo Research Group": "复旦大学左光正课题组",
+    "Research | Zuo Research Group": "研究方向 | 复旦大学左光正课题组",
+    "Publications | Zuo Research Group": "论文发表 | 复旦大学左光正课题组",
+    "People | Zuo Research Group": "团队成员 | 复旦大学左光正课题组",
+    "News | Zuo Research Group": "组内动态 | 复旦大学左光正课题组",
+    "Join Us | Zuo Research Group": "加入我们 | 复旦大学左光正课题组",
+    "Redirecting | Zuo Research Group": "正在跳转 | 复旦大学左光正课题组"
   };
 
   const normalize = (value) => value.replace(/\s+/g, " ").trim();
