@@ -64,7 +64,7 @@
     "Group members": "团队成员",
     "We are building a collaborative research group across materials chemistry, device physics and computational modeling.": "我们正在建设一个横跨材料化学、器件物理与计算建模的合作型研究团队。",
     "Principal Investigator": "课题组负责人",
-    "Prof. Guangzheng Zuo": "左光正 青年研究员",
+    "Prof. Guangzheng Zuo": "左光正 青年研究员 博士生导师",
     "Profile on X-MOL": "X-MOL个人主页",
     "Graduate Students": "研究生",
     "PhD and MSc students working on materials, devices, characterization and modeling.": "博士生和硕士生围绕材料、器件、表征与建模开展研究。",
