@@ -1,7 +1,7 @@
 (function () {
   const translations = {
     "Zuo Research Group": "复旦大学左光正课题组",
-    "Organic Thermoelectrics & Optoelectronics": "有机热电与光电子",
+    "Organic Thermoelectrics & Optoelectronics": "光热电材料与器件课题组",
     "Home": "首页",
     "Research": "研究方向",
     "Publications": "论文发表",
